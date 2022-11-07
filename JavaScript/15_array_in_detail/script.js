@@ -29,4 +29,19 @@ names.forEach(logthename);// calling the function
 
 
 /* use when you want to do somthing with each element of the Array
-don't use whe you want to stop or break the loop when some condition is true/false */
+don't use whe you want to stop or break the loop when some condition is true/false 
+for example 
+this function can be used when u need to find the sum of the array */
+let a=[2,3,4,5,6,5,4,32,1,23,88,99,68,69]
+let sum=0;
+a.forEach((a)=>{
+    sum+=a;
+});
+
+console.log(sum);
+
+// output 409
+
+/* but if this was a searching function
+for example if we had to check whether 69 is present in the array or not
+then this function cannot be used */
