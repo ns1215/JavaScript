@@ -50,4 +50,8 @@ console.log(names);
  // expected output:['nitin', 'bob', 'ayush', 'ayushi']
 
 // Array slice 
- 
+// use to slice an array 
+const n= names.slice(1,3);
+// it will remove the first element and will only print element till index 2
+console.log(n);
+// expected output:['bob', 'ayush']
