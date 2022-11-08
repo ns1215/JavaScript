@@ -76,5 +76,16 @@ for ( let i=0;i<numbers.length;i++){
 console.log(positivenum);
 
 // now same thing can be done using filter() function
-const pnum=numbers.fill((num)=>num>=0);
-console.log(num);
+const pnum=numbers.filter((num)=>num>=0);
+console.log(pnum);
+
+
+/* 
+Array find 
+
+
+*/
+
+const value = pnum.find((n)=>n ===36);
+console.log(value);
+// output:36
