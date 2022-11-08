@@ -39,9 +39,27 @@ item.price should return the price of that particular item
 prices is an array storing the value returned from map function
 
 
- */
 
-const number =[-10,0,-2,15,-36,25];
+in previous file we studied about the filter fucntion 
+now we will see how we can use filter function and map function together 
+
+
+if there is a scenerio in which we had to return the name of element whose cost is less than 5
+
+for this 
+first we will use filter method to filter and store the element whose cost is less than 5 in a new variable 
+then use map funtion to print the name 
+
+code as follows
+
+ */
+const lessthen5 = inventory.filter((elem)=>elem.price<5);
+const NL5 = lessthen5.map((nameofLT5)=>nameofLT5.name);
+console.log(NL5);
+
+// expected output:['scale', 'pen']
+
+
 
 
 
