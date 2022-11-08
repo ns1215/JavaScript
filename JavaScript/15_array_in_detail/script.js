@@ -45,3 +45,36 @@ console.log(sum);
 /* but if this was a searching function
 for example if we had to check whether 69 is present in the array or not
 then this function cannot be used */
+
+
+
+/*
+
+filter method 
+
+use to filter the array and store the filtered array in a new array
+this filter doesnot modify the existing array, you need to store the array in new variable
+
+
+ */
+
+
+// given array.
+// now we need to filter the positive number of the array
+const numbers = [-10, 0,-2, 15, 36, 25, -1];
+
+/* 
+normally using for loop the code would look like this 
+
+*/
+const positivenum =[];
+for ( let i=0;i<numbers.length;i++){
+    if(numbers[i]>=0)
+        positivenum.push(numbers[i]);
+}
+
+console.log(positivenum);
+
+// now same thing can be done using filter() function
+const pnum=numbers.fill((num)=>num>=0);
+console.log(num);
