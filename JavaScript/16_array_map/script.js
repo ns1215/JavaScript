@@ -56,23 +56,4 @@ code as follows
 const lessthen5 = inventory.filter((elem)=>elem.price<5);
 const NL5 = lessthen5.map((nameofLT5)=>nameofLT5.name);
 console.log(NL5);
-
-// expected output:['scale', 'pen']
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// expected output:['scale', 'pen'] 
