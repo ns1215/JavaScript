@@ -53,3 +53,27 @@ const cat={
 }
 cat.bark();
 //Dish 4 years old
+
+
+/* 
+what if we just want to print the keys of the object or jusr\t the values which the keys hold
+
+for keys we can use the Object.keys(name of the object); method to do so
+and for values Object.values(name of the object);
+*/
+
+const objkey= Object.keys(cat);
+console.log(objkey);
+//[ 'name', 'age', 'bark' ]
+
+
+const objval= Object.values(cat);
+console.log(objval);
+
+//[ 'Dish', '4 years old', [Function: bark] ]
+
+/* 
+if we want to print both in a form of array then we can use another method called Object.entries()
+*/
+
+// freeze() method is use to freeze the value(cannot be changed)
